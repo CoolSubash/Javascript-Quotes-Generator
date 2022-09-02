@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section id="quotes-container">
+        <div class="quotes-box">
+            <div class="quotes-heading">
+                <h1>Quotes Generator</h1>
+            </div>
+            <div class="quotes-box-container">
+                <div class="quotes">
+                    <p id="quotes-text">Two things are infinite: the universe and human stupidity; and I'm not sure about the universe.</p>
+                </div>
+                <div class="quotes-author">
+                    <p id="author-name">Albert Einstein</p>
+                </div>
+            </div>
+        </div>
+        <p id="btn">Generate Quotes</p>
+    </section>
+
+    <style>
+
+        .quotes-author{
+            margin:2rem 0rem;
+            color:aqua;
+        }
+        #btn{
+           position:absolute;
+           left:50%;
+           transform:translate(-50%,-50%);
+           background-color: aquamarine;
+           padding: 16px;
+           cursor: pointer;
+        }
+        *{
+            margin:0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+.quotes-heading{
+    text-align: center;
+}
+.quotes-box-container{
+    text-align: center;
+    background-color: red;
+    width:80%;
+    margin:3rem auto;
+    padding: 2rem;
+}
+    </style>
+    <script src="script.js"></script>
+</body>
+</html>
